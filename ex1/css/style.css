@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+header>nav>ul {
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+nav>ul>li>a {
+    display: block;
+    width: 140px;
+    height: 40px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+nav>ul>li>a:hover{
+    background-color: #ffffda;
+}
+
+nav>ul>li>ul {
+    background-color: #fff5e8;
+    display: none;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    z-index: 13;
+}
+
+.silder {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#silder {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.a {
+    width: 150px;
+    height: 70px;
+    background-color: blue;
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gr{
+    display: flex;
+    width: 1200px;
+    height: 200px;
+}
+
+
+.con {
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ba {
+    width: 400px;
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+.i{
+    text-align: center;
+    position: relative;
+}
+
+.i>img{
+    width: 400px;
+    height: 200px;
+    background-color: navajowhite;
+}
+
+.i>p{
+    position: absolute;
+    font-size: medium;
+    padding: 10px;
+}
+
+.go {
+    width: 400px;
+    height: 200px;
+    background-color: violet;
+}
+
+.yt {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+.yt>img {
+    width: 30%;
+    height: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.text {
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: chocolate;
+}
+
+
+
+.popup{
+    background-color: bisque;
+    width: 500px;
+    height: 200px;
+
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 999;
+    
+    display: none;
+}
+
+
+.popup button{
+    margin-top: 80px;
+}
